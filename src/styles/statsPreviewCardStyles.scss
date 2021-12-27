@@ -1,5 +1,5 @@
 .statsCardContainer {
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     max-height: 100vh;
     max-width: 100vw;
@@ -7,7 +7,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 15%;
     .mainStatCard {
         border-radius: 10px;
         height: 576px;
@@ -22,6 +21,7 @@
             height: 100%;
             width: 50%;
             overflow: hidden;
+            color: white;
         }
         .imageContainer {
             height: 100%;
