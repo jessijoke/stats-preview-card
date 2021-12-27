@@ -1,0 +1,40 @@
+.statsCardContainer {
+    width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+    .mainStatCard {
+        height: 576px;
+        width: 1440px;
+        background-color: hsl(244, 38%, 16%);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .stats {
+            height: 100%;
+            width: 50%;
+        }
+        .imageContainer {
+            height: 100%;
+            width: 50%;
+            background-color: hsl(277, 64%, 61%);
+            // background-image: url('../../public/image-header-desktop.jpg');
+            // background-size: cover;
+            // background-blend-mode: multiply;
+            .backgroundImage {
+                height: 100%;
+                width: 100%;
+                opacity: .75;
+                background-image: url('../../public/image-header-desktop.jpg');
+                background-size: cover;
+                mix-blend-mode: multiply;
+            }
+        }
+    }
+}
