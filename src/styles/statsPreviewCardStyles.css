@@ -20,6 +20,7 @@
 }
 
 .statsCardContainer .mainStatCard {
+  border-radius: 10px;
   height: 576px;
   width: 1440px;
   background-color: #1b1938;
@@ -36,20 +37,24 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
 }
 
 .statsCardContainer .mainStatCard .stats {
   height: 100%;
   width: 50%;
+  overflow: hidden;
 }
 
 .statsCardContainer .mainStatCard .imageContainer {
   height: 100%;
   width: 50%;
   background-color: #aa5cdb;
+  overflow: hidden;
 }
 
 .statsCardContainer .mainStatCard .imageContainer .backgroundImage {
+  overflow: hidden;
   height: 100%;
   width: 100%;
   opacity: .75;
