@@ -40,7 +40,7 @@
 }
 
 .statsCardContainer .mainStatCard .stats {
-  margin: 70px 65px 60px 65px;
+  margin: 70px 130px 60px 65px;
   height: 100%;
   width: 50%;
   display: -webkit-box;
@@ -54,6 +54,60 @@
           align-items: center;
   overflow: hidden;
   color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.statsCardContainer .mainStatCard .stats .statsContainer .headerFont {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.statsCardContainer .mainStatCard .stats .statsContainer .statsDescription {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 13px;
+  font-family: 'Inter', sans-serif;
+  padding-bottom: 70px;
+}
+
+.statsCardContainer .mainStatCard .stats .statsContainer .interFont {
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.statsCardContainer .mainStatCard .stats .statsContainer .headTitle {
+  padding-bottom: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.statsCardContainer .mainStatCard .stats .statsContainer .statsInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.statsCardContainer .mainStatCard .stats .statsContainer .statsInfo .statsInfoContainer .statHeader {
+  font-size: 20px;
+  padding-bottom: 7px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.statsCardContainer .mainStatCard .stats .statsContainer .statsInfo .statsInfoContainer .detailInfo {
+  font-family: 'Lexend Deca', sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 11px;
+  text-transform: uppercase;
 }
 
 .statsCardContainer .mainStatCard .imageContainer {

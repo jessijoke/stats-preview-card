@@ -18,7 +18,7 @@
         align-items: center;
         overflow: hidden;
         .stats {
-            margin: 70px 65px 60px 65px;
+            margin: 70px 130px 60px 65px;
             height: 100%;
             width: 50%;
             display: flex;
@@ -26,8 +26,47 @@
             align-items: center;
             overflow: hidden;
             color: hsl(0, 0%, 100%);
+            box-sizing: border-box;
             .statsContainer {
-
+                .headerFont {
+                    font-family: 'Lexend Deca', sans-serif;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                .statsDescription {
+                    color: hsla(0, 0%, 100%, 0.75);
+                    font-size: 13px;
+                    font-family: 'Inter', sans-serif;
+                    padding-bottom: 70px;
+                }
+                
+                .interFont {
+                    font-family: 'Lexend Deca', sans-serif;
+                    font-weight: bold;
+                    font-size: 30px;
+                }
+                .headTitle {
+                    padding-bottom: 30px;
+                    box-sizing: border-box;
+                }
+                .statsInfo {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    .statsInfoContainer {
+                        .statHeader {
+                            font-size: 20px;
+                            padding-bottom: 7px;
+                            box-sizing: border-box;
+                        }
+                        .detailInfo {
+                            font-family: 'Lexend Deca', sans-serif;
+                            color: hsla(0, 0%, 100%, 0.6);
+                            font-size: 11px;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
             }
         }
         .imageContainer {
