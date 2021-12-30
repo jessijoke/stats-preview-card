@@ -18,7 +18,7 @@
         align-items: center;
         overflow: hidden;
         .stats {
-            margin: 70px 130px 60px 65px;
+            margin: 70px 120px 60px 65px;
             height: 100%;
             width: 50%;
             display: flex;
@@ -46,10 +46,17 @@
                     font-size: 30px;
                 }
                 .headTitle {
-                    padding-bottom: 30px;
+                    padding-bottom: 22px;
                     box-sizing: border-box;
+                    line-height: 40px;
+                }
+                .statsDescription {
+                    line-height: 23px;
+                    padding-bottom: 70px;
                 }
                 .statsInfo {
+                    position: relative;
+                    top: -5px;
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
@@ -71,7 +78,7 @@
         }
         .imageContainer {
             height: 100%;
-            width: 50%;
+            min-width: 50%;
             background-color: hsl(277, 64%, 61%);
             overflow: hidden;
             .backgroundImage {
