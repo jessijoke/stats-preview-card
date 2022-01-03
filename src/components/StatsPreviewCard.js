@@ -7,7 +7,7 @@ export const StatsPreviewCard = (props) => {
                 <div className="stats">
                     <div className="statsContainer">
                         <div className="statsHeader interFont headTitle">
-                        Get insights that help your business grow.
+                        Get <span className="insightColor">insights</span> that help your business grow.
                         </div>
                         <div className="statsDescription detailInfo">
                         Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
