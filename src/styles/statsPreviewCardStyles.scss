@@ -20,9 +20,9 @@
         align-items: center;
         overflow: hidden;
         .stats {
-            margin: 40px 110px 30px 72px;
+            margin: 38px 110px 30px 72px;
             height: 100%;
-            max-width: 51%;
+            max-width: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -93,7 +93,7 @@
         }
         .imageContainer {
             height: 100%;
-            min-width: 49%;
+            min-width: 50%;
             background-color: hsl(277, 64%, 61%);
             overflow: hidden;
             .backgroundImage {
