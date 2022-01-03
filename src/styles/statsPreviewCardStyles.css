@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
 .statsCardContainer {
   width: 100%;
   min-height: 100vh;
@@ -19,9 +20,9 @@
 }
 
 .statsCardContainer .mainStatCard {
-  border-radius: 10px;
-  height: 400px;
-  width: 1000px;
+  border-radius: 8px;
+  height: 446px;
+  width: 1110px;
   background-color: #1b1938;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,7 +43,7 @@
 .statsCardContainer .mainStatCard .stats {
   margin: 70px 120px 60px 65px;
   height: 100%;
-  width: 50%;
+  max-width: 51.5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,7 +121,7 @@
 
 .statsCardContainer .mainStatCard .imageContainer {
   height: 100%;
-  min-width: 50%;
+  min-width: 48.5%;
   background-color: #aa5cdb;
   overflow: hidden;
 }
